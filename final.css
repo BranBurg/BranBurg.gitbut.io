@@ -1,3 +1,4 @@
+/*body styling*/
 body { background-color: #FFFFFF;
        color: #242424;
        margin: 0;
@@ -8,40 +9,80 @@ body { background-color: #FFFFFF;
        margin-right: auto;
        padding: 2em;
 }
-h2, h3 { font-family: "Times New Roman", Times, serif;
+h2, h3 { font-family: "times new roman", times, serif;
 }
-p { font-family: Arial, Helvetica, sans-serif; 
+p { font-family: arial, helvetica, sans-serif; 
     font-size: medium;  
 }
+/*id selectors*/
 #blog1, #blog2, #blog3 { 
       width: 80%;
       margin-left: auto;
       margin-right: auto;
       padding: 2em;
-      height: 150px; 
+      height: auto; 
       font-size: 2em;
       margin-top: 0;
       padding-left: 150px; padding-top: 30px;
       border-radius: 15px;
-      box-shadow: 10px 10px 10px #1E1E1E    
+      box-shadow: 10px 10px 10px #1e1e1e  
 }
 #blog1 { background-color: #a4a4a4;
+         color: #ffffff;
 }
 #blog2 { background-color: #ecc00c;             
 }
 #blog3 { background-color: #504c4c;
-         color: #ffffff;         
+         color: #ffffff;     
 }
+#aboutme1 { background-color: #1e1e1e;
+            color: #ffffff;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2em;
+            height: auto; 
+            font-size: 2em;
+            margin-top: 0;
+            padding-left: 150px; padding-top: 30px;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px #1e1e1e; 
+}
+#tracker { background-color: #1e1e1e;
+           color: #ffffff;
+           width: 80%;
+           margin-left: auto;
+           margin-right: auto;
+           height: auto; 
+           font-size: 2em;
+           margin-top: auto;
+           border-radius: 15px;
+           box-shadow: 10px 10px 10px #1e1e1e  
+}
+/*class selectors*/
 .burgenerblog { height: 300px; 
-              background-image: url(images/burgenerblog.png);
-              background-size: 100% 100%; 
-              background-repeat: no-repeat;
-              padding-left: 25px;
-              padding-bottom: 30px;
-              font-size: 150%; 
-              padding-top: 30px;
-              border-radius: 15px;
-              box-shadow: 10px 10px 10px #1E1E1E  
+                background-image: url(images/burgenerblog.png);
+                background-size: 100% 100%; 
+                background-repeat: no-repeat;
+                padding-left: 25px;
+                padding-bottom: 30px;
+                font-size: 150%; 
+                padding-top: 30px;
+                border-radius: 15px;
+                box-shadow: 10px 10px 10px #1e1e1e
+}
+.aboutme { height: 817px; 
+           width: 945px;
+           background-image: url(images/me.jpg);
+           background-size: 100% 100%; 
+           background-repeat: no-repeat;
+           margin-left: auto;
+           margin-right: auto;
+           padding-bottom: 30px;
+           font-size: 150%; 
+           padding-top: 30px;
+           border-radius: 15px;
+           box-shadow: 10px 10px 10px #1e1e1e 
 }
 .burgenerlogo { margin-left: auto;
                 margin-right: auto;
@@ -49,13 +90,30 @@ p { font-family: Arial, Helvetica, sans-serif;
                 height: 50px;
                 display: block;
 }
-.nav1, .nav2, .nav3, .nav4, .nav5  { background-color: #ffffff;
-               color: #ffffff;
-               font-weight: bold;
-}  
-nav a { text-decoration: none; 
+.colorgr { background-color: #a4a4a4;
 }
+/*navigation declarations*/ 
+nav a { text-decoration: none; 
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+}
+nav a:link {  color: #ecc00c;
+}
+nav a:visited { color: #000000
+}
+nav a:hover { color: #000066;
+}
+nav ul { list-style-type: none;
+         text-align: center;
+         font-size: 1.5em;
+         margin: 5px;
+}
+nav li { display: inline;
+}
+/*footer styling*/
 footer { text-align: center; 
          font-style: italic; 
          font-size: small;
 }
+/*add display medias (BRB 11/20/23*/
