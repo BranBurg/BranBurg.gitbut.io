@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--REQUIRED:Index and content pages w/CSS file (4 of 6) (BRB 12-10-23)-->
+<html lang="en">
+<!--REQUIRED:Head (BRB 11-10-23)-->
+<head>
+<!--REQUIRED:Title (BRB 11-10-23)-->  
+<title>About Me</title>
+<!--REQUIRED:Description Metadata (BRB 11-10-23)-->
+<meta name="description" content="The about me page for the burgener blog, the life story of bran burgener, and how to contact them">
+<!--REQUIRED:Keywords Metadata (BRB 11-10-23)-->
+<meta name="keywords" content="blog, Brandon, Burgener, Brandon Burgener, fitness, burgenerblog aboutme, burgenerblog contact, how to contact burgenerblog">
+<!--REQUIRED:Author Metadata (BRB 11-10-23)-->
+<meta name="author" content="Brandon Burgener">
+<!--REQUIRED:Viewport Metadata (BRB 11-10-23)-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/burgenerlogo.png" type="image/x-con">
+<meta charset="utf-8">
+<link rel="stylesheet" href="final.css">
+<style>
+body { background-image: url(images/background/aboutmebg.jpg);
+}
+</style>
+<!--REQUIRED:Close Head (BRB 11-10-23)-->
+</head>
+<!--REQUIRED:Body (BRB 11-10-23)-->  
+<body>
+<nav>
+<!--REQUIRED:Nav (BRB 11-10-23)-->
+<ul>
+ <li><a href="index.html">Home</a></li>
+  <li><a href="blogcast.html">Blogcast</a></li>
+   <li><a href="tracker.html">Tracker</a></li>
+    <li><a href="program.html">Program</a></li>
+     <li id="page">About Me<a href="aboutme.html"></a></li>
+</ul>
+</nav>
+<!--REQUIRED:Close Nav (BRB 11-10-23)-->
+<header class="aboutme">
+</header>
+<div class="spacing">
+</div>
+<main>
+<!--REQUIRED:Main (BRB 11-10-23)-->
+<div id="aboutme1">
+ <h2>About me!</h2>
+  <p style="text-indent: 25px;">I want to share my story with you. I've had quite a journey in my career.
+     My name is Brandon Burgener. I worked for a Sheriff’s Office as a Sergeant for several years,
+     but I burned out of that line of work and wanted to find something different that I was passionate about.
+     While searching, I got another offer to be a Program Manager for another agency to run their field training and academy program.
+     After another year, I was ready to leave the state government and enter the corporate foray.</p>
+<div class="paraspace">
+</div> 
+   <p style="text-indent: 25px;">I joined Uber as a Senior Trust and Safety Investigator, and after some hard work, I was promoted to Global Talent Acquisition as a Recruiting Sourcer.
+     I enjoyed my work and found professional happiness for the first time.
+     I was able to look ahead and towards my future plans.
+     In 2023, Uber announced layoffs and redundancies, and my entire team was affected.
+     I took this opportunity to search again for what I wanted. I ended up where I should have always begun: information technology. I've always been interested in technology, from gaming to tinkering to enjoying the latest tech.
+     I was always my family’s IT guy. After some deliberation, I figured that I should finally get paid for my services, and I am now pursuing my degree in Information Technology and Cyber Security.</p>
+<div class="paraspace">
+</div>     
+   <p style="text-indent: 25px;">This journey has taught me a lot, and I look forward to learning more. But there has always been something that holds me back&mdash;my fitness.
+     Starting a fitness journey can be a daunting task, but it’s also an exciting one.
+     It’s a chance to take control of my health and well-being and to make positive changes in my life.
+     While pursuing my professional goal, I want to challenge myself and pursue my fitness goals.
+     I believe that fitness is not just about looking good, but it’s also about feeling good.
+     It’s about having the energy to do the things I love and to live life to the fullest.
+     I'm excited to embark on this new journey and to see where it takes me.
+     I know that it will not be easy, but I am ready to put in the work and make positive changes in my life.
+     I’m excited to take control of my health and well-being and to inspire others to do the same.
+     If you are ready to start your own fitness journey, I am here to help you every step of the way.</p>
+</div>
+<div class="blogspace">
+</div>
+<div id="blog4">
+<h2>Contact Me!</h2>
+<!--REQUIRED:Float (BRB 12-11-23)--> 
+<img class="floater" src="images/float.jpg" alt="A cartoon coyote howling in an Arizona landscape, with a roadrunning passing by" height="200" width="200">
+<!--REQUIRED:Form (BRB 12-5-23)-->
+<p style="color: #ecc00c;">Required fields are marked with an asterisk *.</p>
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+<!--REQUIRED:Form input element #1 (Name) (BRB 12-5-23)--> 
+<label for="myName">* Name
+</label>
+<!--REQUIRED:Form *required* #1 (BRB 12-5-23)-->
+<input type="text" name="myName" id="myName" required placeholder="your name here">
+<!--REQUIRED:Form input element #2 (E-mail) (BRB 12-5-23)--> 
+<label for="myEmail">* E-mail
+</label>
+<!--REQUIRED:Form *required* #2 (BRB 12-5-23)-->
+<input type="email" name="myEmail" id="myEmail" required placeholder="youremail@domain.com">
+<div>
+<!--REQUIRED:Form Checkbox (BRB 12-5-23)-->
+How did you visit the site?:
+<div class="paraspace">
+</div>
+<input type="checkbox" id="myphone" name="mydevice" value="mobilephone">By a mobile device
+<div class="paraspace">
+</div>
+<input type="checkbox" id="mytablet" name="mydevice" value="tablet">By a tablet device
+<div class="paraspace">
+</div>
+<input type="checkbox" id="mypc" name="mydevice" value="pc">By a PC
+</div>
+<label for="mybrowser">My Browser?
+</label>
+<input type="text" name="mybrowser" id="mybrowser" list="browser" required placeholder="click to select browser" >
+<datalist id="browser">
+<!--REQUIRED:Option element (BRB 12-10-23) (Single or Double-click in My Browser box)--> 
+ <option value="Google">
+  <option value="Bing">
+   <option value="Firefox">
+    <option value="Edge">
+     <option value="Safari">
+</datalist>
+<!--REQUIRED:Form input element #3 (Comments) (BRB 12-5-23)-->
+<label for="myComments">* Comments
+</label>
+<textarea name="myComments" id="myComments" rows="2" cols="20" required placeholder="your comments here" >
+</textarea>
+<!--REQUIRED:Form fieldset and legend (BRB 12-5-23)-->
+<fieldset>
+ <legend>Where are you writing in from?</legend>
+   <label>City: <input type="text" name="city" id="city"></label>
+    <label>State: <input type="text" name="state" id="state" maxlength="2" size="5"></label>
+     <label>Zip: <input type="text" name="zip" id="zip" maxlength="5" size="5"></label> 
+</fieldset>
+<div id="buttons">
+<!--REQUIRED:Form Submit Button (BRB 12-5-23)--> 
+<input type="submit" value="Submit">
+<!--REQUIRED:Form Reset Button (BRB 12-5-23)-->
+<input type="reset" value="Reset">
+</div>
+</form>
+</div>
+<!--REQUIRED:Close Main (BRB 11-10-23)-->
+</main>
+<div class="spacing">
+</div>
+<img src="images/burgenerlogo.png" 
+alt="Logo of the Burgener Blog, a desert landscape with the word Burgener above in a circular logo"
+class="burgenerlogo">
+<footer>
+<!--REQUIRED:Footer (BRB 11-10-23)-->
+<div class="footerspace">
+<!--REQUIRED:Special Character (Copyright) (BRB 12-10-23)-->
+ Copyright &copy; 2023 Burgener Blog
+</div>
+<a href = "mailto:burgenerblog@gmail.com">burgenerblog@gmail.com</a>
+</footer>
+<!--REQUIRED:Close Footer (BRB 11-10-23)-->
+</body>
+<!--REQUIRED:Close Body (BRB 11-10-23)-->
+</html>
