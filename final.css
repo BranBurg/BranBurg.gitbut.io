@@ -1,0 +1,324 @@
+/*REQUIRED:Index and content pages w/CSS file (1 of 6)(BRB 12-10-23)*/
+/*body styling*/
+body { background-color: #ffffff;
+       color: #242424;
+       font-family: verdana, arial, sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       margin-right: 0.5em;
+       margin-left: 0.5em;
+       background-repeat: repeat;
+}
+* { box-sizing: border-box;
+}
+h1 { margin: auto;
+     text-align: center;
+     flex: 0 0 auto;
+}
+h2, h3 { font-family: serif;
+         text-align: center;
+}
+h6 { font-size: medium;
+}
+h4 { text-decoration: underline;
+}
+h5 { font-size: 100%
+}
+p { font-family: arial, helvetica, sans-serif; 
+    font-size: 80%;  
+    padding-left: 1.5em;
+}
+img { max-width: 100%;
+}
+/*REQUIRED:Table and Caption (BRB 12-10-23)*/
+table { border-collapse: collapse;  
+        border-spacing: 0;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;  
+        min-width: auto;   
+        min-width: auto;
+}
+th, td { text-align: center;
+         padding: 8px;
+         border: 2px solid #000000;
+}
+tr:nth-of-type(even) { background-color: #a4a4a4; 
+}
+tr:first-of-type { background-color: #000000;
+                   color: #ffffff; 
+}
+caption { font-weight: bold; 
+          font-size: 1.2em; 
+}
+/*REQUIRED:Figcaption/Figure (BRB 11-10-23)*/
+figcaption { font-weight: lighter;
+             font-style: italic;
+             font-size: 1em;
+             text-decoration: #000000 dotted underline;
+             font-family: serif, arial, helvetica        
+}
+fieldset { width: 600px;
+           border: 2px ridge #ecc00c;
+           font-family: arial, sans-serif; 
+           min-width: auto;
+           max-width: 100%;
+}
+blockquote { font-style: italic;
+             font-weight: bold;
+             font-size: large;
+}
+legend { font-family: georgia, serif;
+         font-weight: bold;
+         white-space: normal;
+         display: table; 
+         width: 100%;
+         margin-left: -7px; 
+} 
+legend span { display: block;
+              width: 100%;
+} 
+label { padding-left: 10px; 
+} 
+/*spacing*/
+.spacing { padding-bottom: 1.5em;
+}
+.linkspacing { padding-bottom: 0.5em;
+}
+.paraspace { padding-bottom: 0.0001em;
+}
+/*blogspacing*/
+.blogspace { padding-bottom: 1.5em;
+}
+/*id selectors*/
+#blog1, #blog2, #blog3, #blog4 
+{ width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  height: auto; 
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 30px;
+  border-radius: 15px;
+}
+#blog1 { background-color: #a4a4a4;
+         color: #1e1e1e;
+}
+#blog2 { background-color: #ecc00c;             
+}
+#blog3 { background-color: #504c4c;
+         color: #ffffff;     
+}
+#blog4 { background-color: #1e1e1e;
+         color: #ffffff; 
+         box-shadow: 10px 10px 10px #ecc00c;
+         flex-wrap: wrap; 
+         display: flex;
+         padding-right: 2em;
+}
+#aboutme1 { background-color: #1e1e1e;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2em;
+            height: auto; 
+            font-size: 2em;
+            margin-top: 0;
+            padding-top: 30px;
+            border-radius: 15px;
+            color: #ffffff;      
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px #ecc00c;         
+}
+#flow { display: block;
+}
+#buttons { height: 2em;
+           width: 20em;
+}
+.frame { flex: 1 1 auto;
+         display: flex;
+         flex-flow: column;
+}
+/*class selectors*/
+.burgenerblog { height: 300px; 
+                background-image: url(images/burgenerblog.png);
+                background-size: 100% 100%; 
+                background-repeat: no-repeat;
+                padding-left: 25px;
+                padding-bottom: 30px;
+                font-size: 150%; 
+                padding-top: 30px;
+                border-radius: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 10px 10px 10px #1e1e1e
+}
+.aboutme { background-image: url(images/me.jpg);
+           background-size: 100% 100%; 
+           background-repeat: no-repeat;
+           width: 60%;
+           margin-left: auto;
+           margin-right: auto;
+           padding: 2em;
+           height: 300px; 
+           font-size: 2em;
+           margin-top: 0;
+           padding-top: 30px;
+           border-radius: 15px;
+           border-radius: 15px;
+           box-shadow: 10px 10px 10px #ecc00c
+}
+.burgenerlogo { margin-left: auto;
+                margin-right: auto;
+                width: 50px; 
+                height: 50px;
+                display: block;
+}
+.blogpicture { display: flex;
+       flex-direction: unset;
+       flex-wrap: wrap;
+       justify-content: space-around;
+}
+.colorgr { background-color: #a4a4a4;
+} 
+/*REQUIRED:Float (BRB 12-11-23) (see AboutME for use)*/
+.floater { float: right;
+           margin-left: 10px;
+           border: 3px ridge #ecc00c;
+}
+/*navigation declarations*/ 
+nav { font-size: 120%
+}
+nav a { text-decoration: none; 
+        font-weight: bold;
+}
+nav a:link { color: #ecc00c;
+}
+nav a:visited { color: #ffbc94;
+}
+/*REQUIRED:Dynamic Styling of Nav (BRB 12-10-2023)*/
+nav a:hover { color: #000066;
+}
+nav ul { list-style-type: none;
+         font-size: 1em;
+         padding-left: 0;
+         display: flex; 
+	  flex-direction: row; 
+	  flex-wrap: wrap; 
+         justify-content: space-around; 
+}
+nav li { background-color: #1e1e1e; 
+         width: 20%;
+	  min-width: 6em;
+	  font-size: 170%;
+	  text-align: center; 
+	  margin: .5em;
+	  padding: .5em; 
+/*REQUIRED:Border (BRB 11-27-2023)*/
+         border: 1px solid #ecc00c;
+}
+/*current page link color*/
+nav #page { font-weight: bold;
+            color: #ecc00c;
+            font-size: 195%;
+}
+/*footer styling*/
+footer { text-align: center; 
+         font-style: italic; 
+         font-size: small;
+         background-color: #ffffff;
+}
+/*footer spacing*/
+.footerspace { padding-bottom: 1px;
+}
+/*Flexbox Layout*/
+form { display: flex;
+       flex-direction: column;
+       flex-wrap: nowrap; 
+       width: 60%;
+       max-width: 40em;
+       grid-template-rows: auto;
+       gap: 1em;
+       grid-template-columns: 9em 1fr;
+}
+/*REQUIRED:Mobile Style Display (BRB 12-11-2023)*/
+/*Small Display*/
+@media (min-width: 320px) {
+header { grid-area: header;       
+}
+nav { grid-area: nav;
+}
+/*REQUIRED:Selector #1 (Mobile Style) (BRB 12-11-2023)*/
+nav li { display: inline-block;
+         width: 7em;
+         padding: 0.5em;
+}
+nav ul { text-align: center; 
+}
+main { grid-area: main; 
+}
+footer { grid-area: footer; 
+}
+/*REQUIRED:Selector #2 (Mobile Style) (BRB 12-11-2023)*/
+#wrapper { display: grid;
+           grid-template:    
+           "nav nav"  
+           "header header"
+           "main"  
+           "footer"  
+           / 25%;
+}
+/*REQUIRED:Selector #3 (Mobile Style) (BRB 12-11-2023)*/
+.aboutme { height: 320px;
+}
+}
+/*REQUIRED:Tablet Style Display (BRB 12-11-2023)*/
+/*Medium Display*/
+@media (min-width: 768px ) {
+header { grid-area: header;       
+}
+nav { grid-area: nav; 
+}
+main { grid-area: main; 
+}
+footer { grid-area: footer; 
+}
+/*REQUIRED:Selector #1 (Tablet Style) (BRB 12-11-2023)*/
+#burgenerblog, #blog1, #blog2, #blog3 
+{ background-size: auto;
+  margin-left: auto;
+  margin: auto;
+  margin-right: auto;
+}
+/*REQUIRED:Selector #2 (Tablet Style) (BRB 12-11-2023)*/
+.aboutme { height: 768px;
+}
+/*REQUIRED:Selector #3 (Tablet Style) (BRB 12-11-2023)*/
+h1 { font-size: 120%;
+}
+}
+/*REQUIRED:Tablet Style Display (BRB 12-11-2023)*/
+/* Large Display */
+@media (min-width: 1024px) {
+/*REQUIRED:Selector #1 (Desktop Style) (BRB 12-11-2023)*/
+nav ul { display: flex;
+         flex-wrap: nowrap; 
+         justify-content: space-around;
+}
+header { grid-area: header; 
+}
+nav { grid-area: nav; 
+}
+main { grid-area: main; 
+}
+footer { grid-area: footer; 
+}
+/*REQUIRED:Selector #2 (Desktop Style) (BRB 12-11-2023)*/
+.aboutme { height: 1024px;
+}
+/*REQUIRED:Selector #3 (Desktop Style) (BRB 12-11-2023)*/	
+h6 { text-align: center;
+     font-size: 80%;
+}
+}
