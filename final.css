@@ -113,6 +113,8 @@ label { padding-left: 10px;
 #blog4 { background-color: #1e1e1e;
          color: #ffffff; 
          box-shadow: 10px 10px 10px #ecc00c; 
+	 flex-wrap: wrap; 
+         display: flex;
 }
 #aboutme1 { background-color: #1e1e1e;
             width: 80%;
